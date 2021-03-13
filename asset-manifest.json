@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.7268c532.chunk.css",
-    "main.js": "/static/js/main.fb6f91f7.chunk.js",
-    "main.js.map": "/static/js/main.fb6f91f7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.24870d2a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.24870d2a.js.map",
-    "static/js/2.4701b335.chunk.js": "/static/js/2.4701b335.chunk.js",
-    "static/js/2.4701b335.chunk.js.map": "/static/js/2.4701b335.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.7268c532.chunk.css.map": "/static/css/main.7268c532.chunk.css.map",
-    "static/js/2.4701b335.chunk.js.LICENSE.txt": "/static/js/2.4701b335.chunk.js.LICENSE.txt"
+    "main.css": "/lawyers-list/static/css/main.7268c532.chunk.css",
+    "main.js": "/lawyers-list/static/js/main.fb6f91f7.chunk.js",
+    "main.js.map": "/lawyers-list/static/js/main.fb6f91f7.chunk.js.map",
+    "runtime-main.js": "/lawyers-list/static/js/runtime-main.bcaced81.js",
+    "runtime-main.js.map": "/lawyers-list/static/js/runtime-main.bcaced81.js.map",
+    "static/js/2.4701b335.chunk.js": "/lawyers-list/static/js/2.4701b335.chunk.js",
+    "static/js/2.4701b335.chunk.js.map": "/lawyers-list/static/js/2.4701b335.chunk.js.map",
+    "index.html": "/lawyers-list/index.html",
+    "static/css/main.7268c532.chunk.css.map": "/lawyers-list/static/css/main.7268c532.chunk.css.map",
+    "static/js/2.4701b335.chunk.js.LICENSE.txt": "/lawyers-list/static/js/2.4701b335.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.24870d2a.js",
+    "static/js/runtime-main.bcaced81.js",
     "static/js/2.4701b335.chunk.js",
     "static/css/main.7268c532.chunk.css",
     "static/js/main.fb6f91f7.chunk.js"
