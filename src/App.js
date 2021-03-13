@@ -1,25 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import ImportUsers from './ImportUsers/ImportUsers';
+import UserList from './UserList/UserList';
+
+import styles from './App.module.css';
+
+class App extends React.Component {
+  state = {
+    users: null,
+    error: null,
+  };
+
+  render() {
+    const { error, users } = this.state;
+
+    return (
+      <div className={styles.Container}>
+        <ImportUsers
+          onChange={this.handleUsersChange}
+          onError={this.handleImportError}
+        />
+        {
+          error
+            ? (
+              <div className={styles.error}>
+                <p>File format is not correct</p>
+              </div>
+            )
+            : (
+              <UserList users={users}/>
+            )
+        }
+      </div>
+    );
+  }
+
+  handleImportError = () => {
+    this.setState({ error: true });
+  };
+
+  handleUsersChange = users => {
+    this.setState({
+      users,
+      error: null
+    });
+  };
 }
 
 export default App;

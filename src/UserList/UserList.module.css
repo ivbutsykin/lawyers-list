@@ -1,0 +1,19 @@
+.UserList {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.UserList .header {
+    background-color: #CFE2F4;
+    border: 1px solid black;
+}
+
+.UserList .cell {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.error {
+    background-color: #F4CCCC;
+}

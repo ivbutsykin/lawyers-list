@@ -1,0 +1,17 @@
+.Container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.error {
+    width: 400px;
+    height: 75px;
+    background-color: #f4cccc;
+    border: 1px solid #f46666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
